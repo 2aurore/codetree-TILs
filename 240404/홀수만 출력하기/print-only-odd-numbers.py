@@ -1,7 +1,7 @@
-r = int(input())
+# 변수 선언, 입력
+n = int(input())
 
-num = [int(input()) for __ in range(r)]
-
-for n in num: 
-    if n % 3 == 0 and n % 2 == 1: 
-        print(n)
+for _ in range(n):
+    a = int(input())
+    if a % 2 == 1 and a % 3 == 0:
+        print(a)
