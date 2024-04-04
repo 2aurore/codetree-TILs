@@ -1,10 +1,7 @@
 n= int(input())
 
-result = ''
 for i in range(1, n+1):
     if (i) % 2 == 0 or (i) % 3 == 0 :
-        result += '1'
+        print(1, end=' ')
     else: 
-        result += '0'
-    result += ' '
-print(result)
+        print(0, end=' ')
